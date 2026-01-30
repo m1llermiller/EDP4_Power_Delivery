@@ -682,28 +682,6 @@
 		)
 		(uuid "f7e03f05-9931-47b9-b74d-3237afc19e52")
 	)
-	(hierarchical_label "ALERT"
-		(shape bidirectional)
-		(at 78.74 74.93 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "117aed28-a4fa-4044-9b7a-be193ac06d6f")
-	)
-	(hierarchical_label "SDA"
-		(shape bidirectional)
-		(at 78.74 69.85 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "45f2ce1e-d069-4e38-9fc9-3b36d2758108")
-	)
 	(hierarchical_label "3V3"
 		(shape bidirectional)
 		(at 105.41 40.64 180)
@@ -714,17 +692,6 @@
 			(justify right)
 		)
 		(uuid "546fc749-a432-4ed4-8452-660c05bade60")
-	)
-	(hierarchical_label "SCL"
-		(shape bidirectional)
-		(at 78.74 72.39 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9686cea1-128b-4335-bbb3-9e9f909fa1b3")
 	)
 	(symbol
 		(lib_id "Battery_Management:BQ78350DBT")

@@ -2870,6 +2870,12 @@
 		(uuid "9f298938-43d7-40f3-ad02-b1f21a146548")
 	)
 	(junction
+		(at 25.4 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4e7b68e-4f77-45c8-bbce-c3d82c21b3e3")
+	)
+	(junction
 		(at 40.64 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3175,7 +3181,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 105.41) (xy 29.21 105.41)
+			(xy 21.59 105.41) (xy 25.4 105.41)
 		)
 		(stroke
 			(width 0)
@@ -3505,6 +3511,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 105.41) (xy 29.21 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fa7bdc3-1854-43f4-943d-b6e740e080cc")
+	)
+	(wire
+		(pts
 			(xy 209.55 49.53) (xy 205.74 49.53)
 		)
 		(stroke
@@ -3682,6 +3698,16 @@
 			(type default)
 		)
 		(uuid "8c70697c-1a88-4717-a45c-efd8c5ee28c2")
+	)
+	(wire
+		(pts
+			(xy 25.4 101.6) (xy 25.4 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e662047-cd1e-49dc-abc5-b64f0475ea14")
 	)
 	(wire
 		(pts
@@ -4435,7 +4461,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 139.7) (xy 203.2 139.7)
+			(xy 200.66 139.7) (xy 209.55 139.7)
 		)
 		(stroke
 			(width 0)
@@ -4543,6 +4569,16 @@
 		)
 		(uuid "4d207321-53a8-4fe4-bfa7-15afbcd59e2f")
 	)
+	(label "Cell_one"
+		(at 25.4 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "54f13dd7-6d36-4b7b-b869-9515574e4600")
+	)
 	(label "Top_cell_stack"
 		(at 176.53 69.85 0)
 		(effects
@@ -4552,6 +4588,16 @@
 			(justify left bottom)
 		)
 		(uuid "64824440-3801-474c-9ca2-3c386d327970")
+	)
+	(label "Cell_one"
+		(at 209.55 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6d3de2d8-a9e0-41d1-b176-fd0135d9badc")
 	)
 	(label "SRN"
 		(at 83.82 115.57 0)
@@ -4795,17 +4841,6 @@
 			(justify right)
 		)
 		(uuid "571970fb-35cf-44b3-a37c-9aea029bf7f5")
-	)
-	(hierarchical_label "CELL1"
-		(shape bidirectional)
-		(at 203.2 139.7 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "72f8beea-97e5-473c-a7e1-5a0caefd0ccf")
 	)
 	(hierarchical_label "3V3"
 		(shape bidirectional)
