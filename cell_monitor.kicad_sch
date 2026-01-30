@@ -2495,16 +2495,6 @@
 		)
 		(uuid daf4a505-f80a-46fc-a06e-a66855382240)
 	)
-	(text "HS_SW = HIGHSIDE SWITCHING - \nreferring to BQ76200PW high side switching driver"
-		(exclude_from_sim no)
-		(at 250.19 171.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "9eb11d0e-b5e8-4a7b-81eb-4e925bb6f187")
-	)
 	(text_box "I2C Pullups"
 		(exclude_from_sim no)
 		(at 124.46 186.69 0)
@@ -2595,7 +2585,7 @@
 	)
 	(text_box "maxiumum expected current - max power draw estimate 70W - at nominal voltage approx 3x3.6=10.8V - max currents expected approx 6.5A, will rate anything in main conduction path to 10A"
 		(exclude_from_sim no)
-		(at 184.15 166.37 0)
+		(at 16.51 162.56 0)
 		(size 41.91 15.24)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
