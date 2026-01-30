@@ -96,7 +96,7 @@
 		(uuid "b4a7fdf2-ac62-413e-b6e5-968b3b5803ca")
 	)
 	(sheet
-		(at 114.3 97.79)
+		(at 116.84 120.65)
 		(size 29.21 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -112,7 +112,7 @@
 		)
 		(uuid "10745524-5ba8-4327-b65c-e16bb0a1c7f6")
 		(property "Sheetname" "Microcontroller"
-			(at 114.3 97.0784 0)
+			(at 116.84 119.9384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -121,7 +121,7 @@
 			)
 		)
 		(property "Sheetfile" "microcontroller.kicad_sch"
-			(at 114.3 121.2346 0)
+			(at 116.84 144.0946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -138,7 +138,7 @@
 		)
 	)
 	(sheet
-		(at 82.55 87.63)
+		(at 68.58 107.95)
 		(size 24.13 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -154,7 +154,7 @@
 		)
 		(uuid "74145ec3-99f0-43b9-89a7-81e8f7fd18fe")
 		(property "Sheetname" "Charger IC"
-			(at 82.55 86.9184 0)
+			(at 68.58 107.2384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -163,7 +163,7 @@
 			)
 		)
 		(property "Sheetfile" "charger_ic.kicad_sch"
-			(at 82.55 98.3746 0)
+			(at 68.58 118.6946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -272,7 +272,7 @@
 		)
 	)
 	(sheet
-		(at 82.55 102.87)
+		(at 68.58 123.19)
 		(size 24.13 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -288,7 +288,7 @@
 		)
 		(uuid "9f42046e-8f3b-4ab0-827b-330c45082584")
 		(property "Sheetname" "Charging USB PD"
-			(at 82.55 102.1584 0)
+			(at 68.58 122.4784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -297,7 +297,7 @@
 			)
 		)
 		(property "Sheetfile" "charging_usb_PD.kicad_sch"
-			(at 82.55 119.9646 0)
+			(at 68.58 140.2846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -315,7 +315,7 @@
 	)
 	(sheet
 		(at 158.75 52.07)
-		(size 15.24 13.97)
+		(size 27.94 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -339,7 +339,7 @@
 			)
 		)
 		(property "Sheetfile" "cell_controller.kicad_sch"
-			(at 158.75 66.6246 0)
+			(at 158.75 71.7046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -350,16 +350,6 @@
 		(pin "SCL" bidirectional
 			(at 158.75 57.15 180)
 			(uuid "86ca68f2-d9b3-4227-922e-ca6f272f9345")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "3V3" bidirectional
-			(at 158.75 62.23 180)
-			(uuid "81eef0d3-159d-46bb-842d-4bac3439aef6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -397,7 +387,7 @@
 	)
 	(sheet
 		(at 114.3 52.07)
-		(size 27.94 34.29)
+		(size 27.94 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -421,7 +411,7 @@
 			)
 		)
 		(property "Sheetfile" "cell_monitor.kicad_sch"
-			(at 114.3 86.9446 0)
+			(at 114.3 90.7546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -430,7 +420,7 @@
 			)
 		)
 		(pin "HS_SW_CP_EN" bidirectional
-			(at 142.24 85.09 0)
+			(at 142.24 87.63 0)
 			(uuid "b4e919fc-36be-42d1-a511-223d3e24fa4f")
 			(effects
 				(font
@@ -440,7 +430,7 @@
 			)
 		)
 		(pin "PACK-" bidirectional
-			(at 114.3 81.28 180)
+			(at 114.3 72.39 180)
 			(uuid "e33338fa-7f8e-4f65-b3c9-f7d2b9bbbab9")
 			(effects
 				(font
@@ -450,7 +440,7 @@
 			)
 		)
 		(pin "HS_SW_PCHG_EN" bidirectional
-			(at 142.24 82.55 0)
+			(at 142.24 85.09 0)
 			(uuid "519c1639-7f1b-4c2d-a00b-f935e6bc8ad2")
 			(effects
 				(font
@@ -500,23 +490,13 @@
 			)
 		)
 		(pin "PACK+" bidirectional
-			(at 114.3 78.74 180)
+			(at 114.3 69.85 180)
 			(uuid "31b976d7-45bc-4e10-aceb-c16b9a8b6208")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(pin "ALERT" bidirectional
-			(at 142.24 54.61 0)
-			(uuid "b9eb49b1-a03b-45cc-941f-0e93302cb2bf")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "CELL2" bidirectional
@@ -539,16 +519,6 @@
 				(justify left)
 			)
 		)
-		(pin "3V3" bidirectional
-			(at 142.24 62.23 0)
-			(uuid "a6616cff-b78d-4a97-b616-c77318f22709")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "CELL3" bidirectional
 			(at 114.3 62.23 180)
 			(uuid "1c988520-f981-429c-ba39-c087982ebc41")
@@ -560,7 +530,7 @@
 			)
 		)
 		(pin "HS_SW_PMON_EN" bidirectional
-			(at 142.24 80.01 0)
+			(at 142.24 82.55 0)
 			(uuid "6b8283f9-1d5c-477d-acc5-a2f64a46baa7")
 			(effects
 				(font
@@ -570,8 +540,48 @@
 			)
 		)
 		(pin "HS_SW_PACKDIV" bidirectional
-			(at 142.24 77.47 0)
+			(at 142.24 80.01 0)
 			(uuid "19d1c13c-2052-4715-8972-bd8bc004f6d6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ALERT_AFE" bidirectional
+			(at 142.24 54.61 0)
+			(uuid "d8f196ba-a1bf-4ced-bfe7-b846616ced97")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BATT+" bidirectional
+			(at 142.24 69.85 0)
+			(uuid "5fb5b24f-d7fa-4e0c-955b-9b436306f52b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BATT-" bidirectional
+			(at 142.24 72.39 0)
+			(uuid "4b19aea9-9b54-49ee-9040-1453575c88f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "REGOUT_AFE" bidirectional
+			(at 142.24 62.23 0)
+			(uuid "db763691-dc4b-4b28-8b90-9a7cda572b98")
 			(effects
 				(font
 					(size 1.27 1.27)
