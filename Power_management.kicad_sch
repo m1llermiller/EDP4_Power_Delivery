@@ -126,7 +126,7 @@
 		(uuid "fdc86f10-2fae-485f-afb5-594aa73370fe")
 	)
 	(sheet
-		(at 116.84 120.65)
+		(at 101.6 111.76)
 		(size 29.21 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -142,7 +142,7 @@
 		)
 		(uuid "10745524-5ba8-4327-b65c-e16bb0a1c7f6")
 		(property "Sheetname" "Microcontroller"
-			(at 116.84 119.9384 0)
+			(at 101.6 111.0484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -151,7 +151,7 @@
 			)
 		)
 		(property "Sheetfile" "microcontroller.kicad_sch"
-			(at 116.84 144.0946 0)
+			(at 101.6 135.2046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -297,48 +297,6 @@
 			(project "Power_management"
 				(path "/81e8a54f-a6a6-4f78-985c-1dc7d6751007"
 					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 68.58 123.19)
-		(size 24.13 16.51)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "9f42046e-8f3b-4ab0-827b-330c45082584")
-		(property "Sheetname" "Charging USB PD"
-			(at 68.58 122.4784 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "charging_usb_PD.kicad_sch"
-			(at 68.58 140.2846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Power_management"
-				(path "/81e8a54f-a6a6-4f78-985c-1dc7d6751007"
-					(page "5")
 				)
 			)
 		)

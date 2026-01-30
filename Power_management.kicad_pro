@@ -452,20 +452,16 @@
       "Battery Pack"
     ],
     [
-      "9f42046e-8f3b-4ab0-827b-330c45082584",
-      "Charging USB PD"
-    ],
-    [
       "74145ec3-99f0-43b9-89a7-81e8f7fd18fe",
       "Charger IC"
     ],
     [
-      "d9123505-2e91-49e0-b557-44bb908bb8a4",
-      "Cell Monitor"
-    ],
-    [
       "10745524-5ba8-4327-b65c-e16bb0a1c7f6",
       "Microcontroller"
+    ],
+    [
+      "d9123505-2e91-49e0-b557-44bb908bb8a4",
+      "Cell Monitor"
     ]
   ],
   "text_variables": {}
