@@ -1,0 +1,596 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "81e8a54f-a6a6-4f78-985c-1dc7d6751007")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 107.95 54.61) (xy 114.3 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37c53333-10a6-418c-8972-ee9a1f287a0f")
+	)
+	(wire
+		(pts
+			(xy 142.24 59.69) (xy 158.75 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47e62c3f-f269-402a-8254-aa6c048be365")
+	)
+	(wire
+		(pts
+			(xy 142.24 62.23) (xy 158.75 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "509fe80c-b3fc-4c02-b061-8a0500915ecb")
+	)
+	(wire
+		(pts
+			(xy 142.24 57.15) (xy 158.75 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e749d9f-224a-4af5-afa7-cabc97a1f76a")
+	)
+	(wire
+		(pts
+			(xy 107.95 62.23) (xy 114.3 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68763057-043f-4dfa-aa01-763af5165d23")
+	)
+	(wire
+		(pts
+			(xy 142.24 54.61) (xy 158.75 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a59e9eef-be66-44e8-9df5-eb7f81e707d3")
+	)
+	(wire
+		(pts
+			(xy 107.95 64.77) (xy 114.3 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5bc7f7a-0d3b-4ae0-8ff6-bc40625ab51a")
+	)
+	(wire
+		(pts
+			(xy 107.95 59.69) (xy 114.3 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af8a1450-c3f0-43c4-bae5-b6b011858509")
+	)
+	(wire
+		(pts
+			(xy 107.95 57.15) (xy 114.3 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4a7fdf2-ac62-413e-b6e5-968b3b5803ca")
+	)
+	(sheet
+		(at 114.3 97.79)
+		(size 29.21 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "10745524-5ba8-4327-b65c-e16bb0a1c7f6")
+		(property "Sheetname" "Microcontroller"
+			(at 114.3 97.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "microcontroller.kicad_sch"
+			(at 114.3 121.2346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power_management"
+				(path "/81e8a54f-a6a6-4f78-985c-1dc7d6751007"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 82.55 87.63)
+		(size 24.13 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "74145ec3-99f0-43b9-89a7-81e8f7fd18fe")
+		(property "Sheetname" "Charger IC"
+			(at 82.55 86.9184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "charger_ic.kicad_sch"
+			(at 82.55 98.3746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power_management"
+				(path "/81e8a54f-a6a6-4f78-985c-1dc7d6751007"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 82.55 52.07)
+		(size 25.4 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "857049be-50e6-4ac5-ad00-0478baeab975")
+		(property "Sheetname" "Battery Pack"
+			(at 82.55 51.3584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "battery_pack.kicad_sch"
+			(at 82.55 66.6246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CELL2" bidirectional
+			(at 107.95 59.69 0)
+			(uuid "eb6be550-27f2-424e-92ad-d0f4bf4d48a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CELL0" bidirectional
+			(at 107.95 54.61 0)
+			(uuid "4aae48bc-0da1-4e15-a3af-d5aaf6f700ef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CELL3" bidirectional
+			(at 107.95 62.23 0)
+			(uuid "32fe542b-5363-48df-82e8-243dcf8383bd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CELL1" bidirectional
+			(at 107.95 57.15 0)
+			(uuid "bb0a0ca5-08c7-4318-ab74-8fc1bee4b1a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CELL4" bidirectional
+			(at 107.95 64.77 0)
+			(uuid "2f659628-5890-4dc9-8789-10ed8eccd0b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Power_management"
+				(path "/81e8a54f-a6a6-4f78-985c-1dc7d6751007"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 82.55 102.87)
+		(size 24.13 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9f42046e-8f3b-4ab0-827b-330c45082584")
+		(property "Sheetname" "Charging USB PD"
+			(at 82.55 102.1584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "charging_usb_PD.kicad_sch"
+			(at 82.55 119.9646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power_management"
+				(path "/81e8a54f-a6a6-4f78-985c-1dc7d6751007"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 158.75 52.07)
+		(size 15.24 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c2fdc24a-8419-4e57-879f-6dea2fe8f7e8")
+		(property "Sheetname" "Cell Controller"
+			(at 158.75 51.3584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cell_controller.kicad_sch"
+			(at 158.75 66.6246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SCL" bidirectional
+			(at 158.75 57.15 180)
+			(uuid "86ca68f2-d9b3-4227-922e-ca6f272f9345")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3V3" bidirectional
+			(at 158.75 62.23 180)
+			(uuid "81eef0d3-159d-46bb-842d-4bac3439aef6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 158.75 59.69 180)
+			(uuid "40f3ce72-63d2-4d90-a85b-d54decc43494")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ALERT" bidirectional
+			(at 158.75 54.61 180)
+			(uuid "48be9000-931e-41a7-8c3c-8d49118b3a82")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Power_management"
+				(path "/81e8a54f-a6a6-4f78-985c-1dc7d6751007"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 52.07)
+		(size 27.94 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d9123505-2e91-49e0-b557-44bb908bb8a4")
+		(property "Sheetname" "Cell Monitor"
+			(at 114.3 51.3584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cell_monitor.kicad_sch"
+			(at 114.3 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "HS_SW_CP_EN" bidirectional
+			(at 142.24 85.09 0)
+			(uuid "b4e919fc-36be-42d1-a511-223d3e24fa4f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PACK-" bidirectional
+			(at 114.3 81.28 180)
+			(uuid "e33338fa-7f8e-4f65-b3c9-f7d2b9bbbab9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HS_SW_PCHG_EN" bidirectional
+			(at 142.24 82.55 0)
+			(uuid "519c1639-7f1b-4c2d-a00b-f935e6bc8ad2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL_AFE" bidirectional
+			(at 142.24 57.15 0)
+			(uuid "6f397fb9-511e-4fc2-8096-7eba4a9f3832")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CELL0" bidirectional
+			(at 114.3 54.61 180)
+			(uuid "4ca8e8cc-c086-4de6-8be9-e1b73b37cce3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CELL1" bidirectional
+			(at 114.3 57.15 180)
+			(uuid "44e02d12-c7ad-40da-b7d9-36cadf0131c4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA_AFE" bidirectional
+			(at 142.24 59.69 0)
+			(uuid "8a96013c-30a9-4b7d-b1bc-c146deab3fc7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PACK+" bidirectional
+			(at 114.3 78.74 180)
+			(uuid "31b976d7-45bc-4e10-aceb-c16b9a8b6208")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ALERT" bidirectional
+			(at 142.24 54.61 0)
+			(uuid "b9eb49b1-a03b-45cc-941f-0e93302cb2bf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CELL2" bidirectional
+			(at 114.3 59.69 180)
+			(uuid "f1d1eb98-5ce9-4053-b035-5ec918a0e151")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CELL4" bidirectional
+			(at 114.3 64.77 180)
+			(uuid "13a64fbd-ec62-4aac-a216-85202a3b9257")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3V3" bidirectional
+			(at 142.24 62.23 0)
+			(uuid "a6616cff-b78d-4a97-b616-c77318f22709")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CELL3" bidirectional
+			(at 114.3 62.23 180)
+			(uuid "1c988520-f981-429c-ba39-c087982ebc41")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HS_SW_PMON_EN" bidirectional
+			(at 142.24 80.01 0)
+			(uuid "6b8283f9-1d5c-477d-acc5-a2f64a46baa7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HS_SW_PACKDIV" bidirectional
+			(at 142.24 77.47 0)
+			(uuid "19d1c13c-2052-4715-8972-bd8bc004f6d6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Power_management"
+				(path "/81e8a54f-a6a6-4f78-985c-1dc7d6751007"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
