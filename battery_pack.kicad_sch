@@ -211,8 +211,8 @@
 		)
 	)
 	(rectangle
-		(start 101.6 30.48)
-		(end 135.89 74.93)
+		(start 110.49 55.88)
+		(end 144.78 115.57)
 		(stroke
 			(width 0)
 			(type default)
@@ -223,26 +223,32 @@
 		(uuid e0b37971-4baa-4e95-a64c-55d0a679c47d)
 	)
 	(junction
-		(at 105.41 50.8)
+		(at 114.3 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "30664983-969a-44b5-ab59-53b9286a12b2")
 	)
 	(junction
-		(at 105.41 60.96)
+		(at 114.3 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b9729cd3-693f-4c41-b0ce-39b173c9d6f1")
 	)
 	(junction
-		(at 105.41 41.91)
+		(at 114.3 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa825590-60c9-47ce-b771-11e90acd68e1")
+	)
+	(junction
+		(at 114.3 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fc3da9f4-8c6c-4906-8c1a-e297bb884991")
 	)
 	(wire
 		(pts
-			(xy 105.41 50.8) (xy 105.41 52.07)
+			(xy 114.3 91.44) (xy 114.3 92.71)
 		)
 		(stroke
 			(width 0)
@@ -252,7 +258,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 41.91) (xy 123.19 41.91)
+			(xy 114.3 82.55) (xy 132.08 82.55)
 		)
 		(stroke
 			(width 0)
@@ -262,7 +268,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 33.02) (xy 123.19 33.02)
+			(xy 114.3 73.66) (xy 132.08 73.66)
 		)
 		(stroke
 			(width 0)
@@ -272,7 +278,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 60.96) (xy 123.19 60.96)
+			(xy 114.3 101.6) (xy 132.08 101.6)
 		)
 		(stroke
 			(width 0)
@@ -282,7 +288,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 69.85) (xy 123.19 69.85)
+			(xy 114.3 110.49) (xy 132.08 110.49)
 		)
 		(stroke
 			(width 0)
@@ -292,7 +298,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 50.8) (xy 123.19 50.8)
+			(xy 114.3 91.44) (xy 132.08 91.44)
 		)
 		(stroke
 			(width 0)
@@ -302,7 +308,17 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 60.96) (xy 105.41 62.23)
+			(xy 114.3 72.39) (xy 114.3 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b553a50-8559-4046-9067-4dd9024115ba")
+	)
+	(wire
+		(pts
+			(xy 114.3 101.6) (xy 114.3 102.87)
 		)
 		(stroke
 			(width 0)
@@ -312,7 +328,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 40.64) (xy 105.41 41.91)
+			(xy 114.3 81.28) (xy 114.3 82.55)
 		)
 		(stroke
 			(width 0)
@@ -322,7 +338,17 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 49.53) (xy 105.41 50.8)
+			(xy 114.3 64.77) (xy 132.08 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9746e0c9-a573-4e25-89f1-b294b57e576e")
+	)
+	(wire
+		(pts
+			(xy 114.3 90.17) (xy 114.3 91.44)
 		)
 		(stroke
 			(width 0)
@@ -332,7 +358,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 59.69) (xy 105.41 60.96)
+			(xy 114.3 100.33) (xy 114.3 101.6)
 		)
 		(stroke
 			(width 0)
@@ -342,7 +368,7 @@
 	)
 	(hierarchical_label "CELL2"
 		(shape bidirectional)
-		(at 123.19 50.8 0)
+		(at 132.08 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -351,9 +377,20 @@
 		)
 		(uuid "154aa645-7a63-4de0-8dd9-a2d0a92f2dfa")
 	)
+	(hierarchical_label "CELL5"
+		(shape bidirectional)
+		(at 132.08 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1b89a8ab-bf7c-4534-a5ac-9fdcf7e46c5a")
+	)
 	(hierarchical_label "CELL3"
 		(shape bidirectional)
-		(at 123.19 41.91 0)
+		(at 132.08 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -364,7 +401,7 @@
 	)
 	(hierarchical_label "CELL1"
 		(shape bidirectional)
-		(at 123.19 60.96 0)
+		(at 132.08 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -375,7 +412,7 @@
 	)
 	(hierarchical_label "CELL4"
 		(shape bidirectional)
-		(at 123.19 33.02 0)
+		(at 132.08 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -386,7 +423,7 @@
 	)
 	(hierarchical_label "CELL0"
 		(shape bidirectional)
-		(at 123.19 69.85 0)
+		(at 132.08 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -397,7 +434,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 105.41 38.1 0)
+		(at 114.3 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -406,7 +443,7 @@
 		(fields_autoplaced yes)
 		(uuid "189705d5-9a95-4f97-bffd-60bcaf7897e2")
 		(property "Reference" "BT4"
-			(at 109.22 34.9884 0)
+			(at 118.11 75.6284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -415,7 +452,7 @@
 			)
 		)
 		(property "Value" "Battery_Cell"
-			(at 109.22 37.5284 0)
+			(at 118.11 78.1684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -424,7 +461,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 36.576 90)
+			(at 114.3 77.216 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -433,7 +470,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 105.41 36.576 90)
+			(at 114.3 77.216 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -442,7 +479,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 105.41 38.1 0)
+			(at 114.3 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -451,7 +488,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at 105.41 38.1 0)
+			(at 114.3 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -460,7 +497,7 @@
 			)
 		)
 		(property "Sim.Type" "DC"
-			(at 105.41 38.1 0)
+			(at 114.3 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -469,7 +506,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 105.41 38.1 0)
+			(at 114.3 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -494,16 +531,16 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 105.41 57.15 0)
+		(at 114.3 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "25cc3369-ea5a-48df-a20d-976a4e26fae5")
-		(property "Reference" "BT2"
-			(at 109.22 54.0384 0)
+		(uuid "24ccd28b-70d6-4976-ac93-159410230b37")
+		(property "Reference" "BT5"
+			(at 118.11 66.7384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -512,7 +549,7 @@
 			)
 		)
 		(property "Value" "Battery_Cell"
-			(at 109.22 56.5784 0)
+			(at 118.11 69.2784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -521,7 +558,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 55.626 90)
+			(at 114.3 68.326 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -530,7 +567,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 105.41 55.626 90)
+			(at 114.3 68.326 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -539,7 +576,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 105.41 57.15 0)
+			(at 114.3 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -548,7 +585,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at 105.41 57.15 0)
+			(at 114.3 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -557,7 +594,7 @@
 			)
 		)
 		(property "Sim.Type" "DC"
-			(at 105.41 57.15 0)
+			(at 114.3 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -566,7 +603,104 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 105.41 57.15 0)
+			(at 114.3 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27f12665-2912-46e2-b7f1-4a17945c93b2")
+		)
+		(pin "2"
+			(uuid "5f7b5b85-6219-4380-ad57-4df623ae481c")
+		)
+		(instances
+			(project "Power_management"
+				(path "/81e8a54f-a6a6-4f78-985c-1dc7d6751007/857049be-50e6-4ac5-ad00-0478baeab975"
+					(reference "BT5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 114.3 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25cc3369-ea5a-48df-a20d-976a4e26fae5")
+		(property "Reference" "BT2"
+			(at 118.11 94.6784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery_Cell"
+			(at 118.11 97.2184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 96.266 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 96.266 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 114.3 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "V"
+			(at 114.3 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "DC"
+			(at 114.3 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 114.3 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -591,7 +725,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 105.41 46.99 0)
+		(at 114.3 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -600,7 +734,7 @@
 		(fields_autoplaced yes)
 		(uuid "a4848eae-8be3-4b80-a760-d620b7782a55")
 		(property "Reference" "BT1"
-			(at 109.22 43.8784 0)
+			(at 118.11 84.5184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -609,7 +743,7 @@
 			)
 		)
 		(property "Value" "Battery_Cell"
-			(at 109.22 46.4184 0)
+			(at 118.11 87.0584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -618,7 +752,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 45.466 90)
+			(at 114.3 86.106 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -627,7 +761,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 105.41 45.466 90)
+			(at 114.3 86.106 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -636,7 +770,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 105.41 46.99 0)
+			(at 114.3 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -645,7 +779,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at 105.41 46.99 0)
+			(at 114.3 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -654,7 +788,7 @@
 			)
 		)
 		(property "Sim.Type" "DC"
-			(at 105.41 46.99 0)
+			(at 114.3 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -663,7 +797,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 105.41 46.99 0)
+			(at 114.3 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -688,7 +822,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 105.41 67.31 0)
+		(at 114.3 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -697,7 +831,7 @@
 		(fields_autoplaced yes)
 		(uuid "bcae25da-50ce-4f12-9890-b4cc6da501d2")
 		(property "Reference" "BT3"
-			(at 109.22 64.1984 0)
+			(at 118.11 104.8384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -706,7 +840,7 @@
 			)
 		)
 		(property "Value" "Battery_Cell"
-			(at 109.22 66.7384 0)
+			(at 118.11 107.3784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -715,7 +849,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 65.786 90)
+			(at 114.3 106.426 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -724,7 +858,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 105.41 65.786 90)
+			(at 114.3 106.426 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -733,7 +867,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 105.41 67.31 0)
+			(at 114.3 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -742,7 +876,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at 105.41 67.31 0)
+			(at 114.3 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -751,7 +885,7 @@
 			)
 		)
 		(property "Sim.Type" "DC"
-			(at 105.41 67.31 0)
+			(at 114.3 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -760,7 +894,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 105.41 67.31 0)
+			(at 114.3 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
