@@ -5,6 +5,16 @@
 	(uuid "81e8a54f-a6a6-4f78-985c-1dc7d6751007")
 	(paper "A4")
 	(lib_symbols)
+	(text "REGOUT_AFE AT 3.3V?"
+		(exclude_from_sim no)
+		(at 137.414 45.974 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4d709763-8c1d-40bd-9af6-7bf1241b846c")
+	)
 	(text "HS_SW = HIGHSIDE SWITCHING - \nreferring to BQ76200PW high side switching driver"
 		(exclude_from_sim no)
 		(at 148.082 30.734 0)
