@@ -5,9 +5,19 @@
 	(uuid "81e8a54f-a6a6-4f78-985c-1dc7d6751007")
 	(paper "A4")
 	(lib_symbols)
+	(text "external commmunication from cell controller - i2c \ncommunication between cell monitor and controller \nso only 1 SMBUS connection is required\n"
+		(exclude_from_sim no)
+		(at 255.778 28.448 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4218d7a8-4188-4b96-95d5-a42a495e0ff9")
+	)
 	(text "REGOUT_AFE AT 3.3V?"
 		(exclude_from_sim no)
-		(at 137.414 45.974 0)
+		(at 261.62 39.116 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17,7 +27,7 @@
 	)
 	(text "HS_SW = HIGHSIDE SWITCHING - \nreferring to BQ76200PW high side switching driver"
 		(exclude_from_sim no)
-		(at 148.082 30.734 0)
+		(at 256.54 17.526 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37,7 +47,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 81.28) (xy 105.41 81.28)
+			(xy 105.41 45.72) (xy 158.75 45.72)
 		)
 		(stroke
 			(width 0)
@@ -67,7 +77,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 83.82) (xy 153.67 83.82)
+			(xy 105.41 48.26) (xy 158.75 48.26)
 		)
 		(stroke
 			(width 0)
@@ -97,13 +107,13 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 83.82) (xy 153.67 72.39)
+			(xy 142.24 68.58) (xy 158.75 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "67fe5069-5c4d-47e2-b028-3d5d902b9d50")
+		(uuid "64983d8c-d28e-4605-854e-6bdb5c33d331")
 	)
 	(wire
 		(pts
@@ -117,13 +127,13 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 69.85) (xy 151.13 69.85)
+			(xy 142.24 71.12) (xy 158.75 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "78d34f35-4660-4623-8746-fba3a8777e80")
+		(uuid "7de77a04-b11c-403b-b75f-85e3d2e03b52")
 	)
 	(wire
 		(pts
@@ -147,16 +157,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 69.85) (xy 151.13 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abb220a1-c1b3-45ae-8692-0bf4381e7d62")
-	)
-	(wire
-		(pts
 			(xy 105.41 59.69) (xy 114.3 59.69)
 		)
 		(stroke
@@ -177,17 +177,17 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 72.39) (xy 158.75 72.39)
+			(xy 142.24 73.66) (xy 158.75 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ee03fb52-ece8-494a-88e4-23f7f2589f2d")
+		(uuid "e7b0a329-5f1b-40a5-bec5-24cd0c6c7b28")
 	)
 	(sheet
-		(at 101.6 111.76)
-		(size 29.21 22.86)
+		(at 81.28 124.46)
+		(size 34.29 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -200,9 +200,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "10745524-5ba8-4327-b65c-e16bb0a1c7f6")
-		(property "Sheetname" "Microcontroller"
-			(at 101.6 111.0484 0)
+		(uuid "0f7ceac4-f1c3-4a56-82f3-029c07312a33")
+		(property "Sheetname" "Buck Converter Stage"
+			(at 81.28 123.7484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -210,8 +210,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "microcontroller.kicad_sch"
-			(at 101.6 135.2046 0)
+		(property "Sheetfile" "buck_converters.kicad_sch"
+			(at 81.28 141.5546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -228,7 +228,7 @@
 		)
 	)
 	(sheet
-		(at 142.24 101.6)
+		(at 80.01 95.25)
 		(size 25.4 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -236,15 +236,16 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
-			(width 0.1524)
+			(width 0.254)
 			(type solid)
+			(color 5 5 5 1)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 203 223 1.0000)
 		)
 		(uuid "24019103-358c-4d97-a7cd-466f0b4103d1")
 		(property "Sheetname" "USB Interface"
-			(at 142.24 100.8884 0)
+			(at 80.01 94.5384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -253,7 +254,7 @@
 			)
 		)
 		(property "Sheetfile" "usb_interface.kicad_sch"
-			(at 142.24 118.6946 0)
+			(at 80.01 112.3446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -270,23 +271,24 @@
 		)
 	)
 	(sheet
-		(at 68.58 107.95)
-		(size 24.13 10.16)
+		(at 114.3 95.25)
+		(size 27.94 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
-			(width 0.1524)
+			(width 0.254)
 			(type solid)
+			(color 0 0 0 1)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 203 223 1.0000)
 		)
 		(uuid "74145ec3-99f0-43b9-89a7-81e8f7fd18fe")
 		(property "Sheetname" "Charger IC"
-			(at 68.58 107.2384 0)
+			(at 114.3 94.4876 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -295,7 +297,7 @@
 			)
 		)
 		(property "Sheetfile" "charger_ic.kicad_sch"
-			(at 68.58 118.6946 0)
+			(at 114.3 112.3954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -312,23 +314,24 @@
 		)
 	)
 	(sheet
-		(at 80.01 52.07)
-		(size 25.4 33.02)
+		(at 80.01 43.18)
+		(size 25.4 41.91)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
-			(width 0.1524)
+			(width 0.254)
 			(type solid)
+			(color 0 0 0 1)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 203 223 1.0000)
 		)
 		(uuid "857049be-50e6-4ac5-ad00-0478baeab975")
 		(property "Sheetname" "Battery Pack"
-			(at 80.01 51.3584 0)
+			(at 80.01 42.4684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -406,7 +409,7 @@
 			)
 		)
 		(pin "BATT-" bidirectional
-			(at 105.41 83.82 0)
+			(at 105.41 48.26 0)
 			(uuid "1484c68d-7747-490d-9656-f01143accc70")
 			(effects
 				(font
@@ -416,7 +419,7 @@
 			)
 		)
 		(pin "BATT+" bidirectional
-			(at 105.41 81.28 0)
+			(at 105.41 45.72 0)
 			(uuid "134ecc25-198d-4128-9578-cec1c88e8d91")
 			(effects
 				(font
@@ -434,23 +437,24 @@
 		)
 	)
 	(sheet
-		(at 158.75 52.07)
-		(size 35.56 27.94)
+		(at 158.75 44.45)
+		(size 35.56 35.56)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
-			(width 0.1524)
+			(width 0.254)
 			(type solid)
+			(color 0 0 0 1)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 203 223 1.0000)
 		)
 		(uuid "c2fdc24a-8419-4e57-879f-6dea2fe8f7e8")
 		(property "Sheetname" "Cell Controller"
-			(at 158.75 51.3584 0)
+			(at 158.75 43.7384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -468,7 +472,7 @@
 			)
 		)
 		(pin "BATT-" bidirectional
-			(at 158.75 72.39 180)
+			(at 158.75 48.26 180)
 			(uuid "5a4d90e4-5d6f-47e1-9acb-8ea4dbabbe4e")
 			(effects
 				(font
@@ -488,7 +492,7 @@
 			)
 		)
 		(pin "BATT+" bidirectional
-			(at 158.75 69.85 180)
+			(at 158.75 45.72 180)
 			(uuid "88245cac-dc17-4f79-93b2-0d044dc6e8eb")
 			(effects
 				(font
@@ -527,6 +531,36 @@
 				(justify left)
 			)
 		)
+		(pin "HS_SW_PCHG_EN" bidirectional
+			(at 158.75 71.12 180)
+			(uuid "945dee98-8b92-4f21-bc24-a9ca8242f685")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HS_SW_CP_EN" bidirectional
+			(at 158.75 73.66 180)
+			(uuid "f2e03812-b2f5-4c93-a18a-2ec857804228")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HS_SW_PMON_EN" bidirectional
+			(at 158.75 68.58 180)
+			(uuid "9eb82f62-76f5-4d1d-a3df-694a79f91094")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "Power_management"
 				(path "/81e8a54f-a6a6-4f78-985c-1dc7d6751007"
@@ -544,11 +578,12 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
-			(width 0.1524)
+			(width 0.254)
 			(type solid)
+			(color 0 0 0 1)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 203 223 1.0000)
 		)
 		(uuid "d9123505-2e91-49e0-b557-44bb908bb8a4")
 		(property "Sheetname" "Cell Monitor"
@@ -570,7 +605,7 @@
 			)
 		)
 		(pin "HS_SW_CP_EN" bidirectional
-			(at 142.24 76.2 0)
+			(at 142.24 73.66 0)
 			(uuid "b4e919fc-36be-42d1-a511-223d3e24fa4f")
 			(effects
 				(font
@@ -580,7 +615,7 @@
 			)
 		)
 		(pin "PACK-" bidirectional
-			(at 114.3 73.66 180)
+			(at 114.3 76.2 180)
 			(uuid "e33338fa-7f8e-4f65-b3c9-f7d2b9bbbab9")
 			(effects
 				(font
@@ -590,7 +625,7 @@
 			)
 		)
 		(pin "HS_SW_PCHG_EN" bidirectional
-			(at 142.24 73.66 0)
+			(at 142.24 71.12 0)
 			(uuid "519c1639-7f1b-4c2d-a00b-f935e6bc8ad2")
 			(effects
 				(font
@@ -640,7 +675,7 @@
 			)
 		)
 		(pin "PACK+" bidirectional
-			(at 114.3 71.12 180)
+			(at 114.3 73.66 180)
 			(uuid "31b976d7-45bc-4e10-aceb-c16b9a8b6208")
 			(effects
 				(font
@@ -680,18 +715,8 @@
 			)
 		)
 		(pin "HS_SW_PMON_EN" bidirectional
-			(at 142.24 71.12 0)
-			(uuid "6b8283f9-1d5c-477d-acc5-a2f64a46baa7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "HS_SW_PACKDIV" bidirectional
 			(at 142.24 68.58 0)
-			(uuid "19d1c13c-2052-4715-8972-bd8bc004f6d6")
+			(uuid "6b8283f9-1d5c-477d-acc5-a2f64a46baa7")
 			(effects
 				(font
 					(size 1.27 1.27)

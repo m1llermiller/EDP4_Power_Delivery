@@ -1347,16 +1347,20 @@
       "Charger IC"
     ],
     [
-      "10745524-5ba8-4327-b65c-e16bb0a1c7f6",
-      "Microcontroller"
+      "24019103-358c-4d97-a7cd-466f0b4103d1",
+      "USB Interface"
     ],
     [
       "d9123505-2e91-49e0-b557-44bb908bb8a4",
       "Cell Monitor"
     ],
     [
-      "24019103-358c-4d97-a7cd-466f0b4103d1",
-      "USB Interface"
+      "0f7ceac4-f1c3-4a56-82f3-029c07312a33",
+      "Buck Converter Stage"
+    ],
+    [
+      "51ee0cfe-9f65-40bb-82d4-1233ded7fb98",
+      "Power Distribution Stage"
     ]
   ],
   "text_variables": {

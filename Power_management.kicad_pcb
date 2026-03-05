@@ -64,6 +64,7 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
+			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -3603,7 +3604,7 @@
 	(footprint "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 		(layer "F.Cu")
 		(uuid "98007988-e02e-4b2f-bc46-5657a4d8cc14")
-		(at 200.5 150 90)
+		(at 205.74 152.4 90)
 		(descr "USB 2.0 Type C Receptacle, GCT, 16P, top mounted, horizontal, 5A: https://gct.co/files/drawings/usb4105.pdf")
 		(tags "USB C Type-C Receptacle SMD USB 2.0 16P 16C USB4105-15-A USB4105-15-A-060 USB4105-15-A-120 USB4105-GF-A USB4105-GF-A-060 USB4105-GF-A-120")
 		(property "Reference" "J15"
@@ -10125,8 +10126,8 @@
 		)
 	)
 	(gr_rect
-		(start 24 158)
-		(end 210 23)
+		(start 24 23)
+		(end 210 158)
 		(stroke
 			(width 0.05)
 			(type default)
