@@ -335,17 +335,15 @@
 			(embedded_fonts no)
 		)
 	)
-	(rectangle
-		(start 97.79 49.53)
-		(end 130.81 147.32)
-		(stroke
-			(width 0)
-			(type default)
+	(text "Cell Datasheet : https://www.allbatteries.co.uk/media/pdf/ACL9089_UK.pdf"
+		(exclude_from_sim no)
+		(at 92.456 45.212 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
 		)
-		(fill
-			(type none)
-		)
-		(uuid e0b37971-4baa-4e95-a64c-55d0a679c47d)
+		(uuid "db426453-ab97-47c1-a981-da5ef3a14d8e")
 	)
 	(junction
 		(at 101.6 57.15)

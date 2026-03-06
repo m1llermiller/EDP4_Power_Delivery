@@ -1335,12 +1335,16 @@
       "Root"
     ],
     [
-      "c2fdc24a-8419-4e57-879f-6dea2fe8f7e8",
-      "Cell Controller"
-    ],
-    [
       "857049be-50e6-4ac5-ad00-0478baeab975",
       "Battery Pack"
+    ],
+    [
+      "d9123505-2e91-49e0-b557-44bb908bb8a4",
+      "Cell Monitor"
+    ],
+    [
+      "c2fdc24a-8419-4e57-879f-6dea2fe8f7e8",
+      "Cell Controller"
     ],
     [
       "74145ec3-99f0-43b9-89a7-81e8f7fd18fe",
@@ -1351,16 +1355,12 @@
       "USB Interface"
     ],
     [
-      "d9123505-2e91-49e0-b557-44bb908bb8a4",
-      "Cell Monitor"
-    ],
-    [
       "0f7ceac4-f1c3-4a56-82f3-029c07312a33",
       "Buck Converter Stage"
     ],
     [
-      "51ee0cfe-9f65-40bb-82d4-1233ded7fb98",
-      "Power Distribution Stage"
+      "47edc75a-ab5a-491b-b1f5-63eaaacac5fe",
+      "Power Distribution"
     ]
   ],
   "text_variables": {
