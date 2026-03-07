@@ -335,9 +335,19 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Cell Datasheet : https://www.allbatteries.co.uk/media/pdf/ACL9089_UK.pdf"
+	(text "https://www.allbatteries.co.uk/media/pdf/ACL9089_UK.pdf"
 		(exclude_from_sim no)
-		(at 92.456 45.212 0)
+		(at 67.31 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a9391938-913f-4b82-b390-a1d6660fb135")
+	)
+	(text "Cell Datasheet : "
+		(exclude_from_sim no)
+		(at 50.8 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)

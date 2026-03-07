@@ -93,7 +93,7 @@
 	)
 	(text "REGOUT_AFE AT 3.3V?"
 		(exclude_from_sim no)
-		(at 261.62 39.116 0)
+		(at 210.82 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -137,7 +137,7 @@
 	)
 	(text "PMP22805 reference design - includes USB OTG for powering RADA ROCK 5B?"
 		(exclude_from_sim no)
-		(at 129.032 18.034 0)
+		(at 130.81 16.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -506,6 +506,48 @@
 			(project "Power_management"
 				(path "/81e8a54f-a6a6-4f78-985c-1dc7d6751007"
 					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 20.32 120.65)
+		(size 36.83 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1954bae3-91e7-416c-822c-2b97e25921d4")
+		(property "Sheetname" "Testing Stage 1 MONITORING"
+			(at 20.32 119.9384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "monitoring.kicad_sch"
+			(at 20.32 155.5246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power_management"
+				(path "/81e8a54f-a6a6-4f78-985c-1dc7d6751007"
+					(page "9")
 				)
 			)
 		)

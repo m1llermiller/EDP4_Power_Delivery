@@ -451,7 +451,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Power_management.kicad_pro",
+    "filename": "Testing Stage 1 MONITORING.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -490,7 +490,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "Power_management.step",
+      "step": "",
       "svg": "",
       "vrml": ""
     },
@@ -563,38 +563,44 @@
         },
         {
           "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
+          "label": "AEC CATEGORY",
+          "name": "AEC CATEGORY",
           "show": false
         },
         {
           "group_by": false,
-          "label": "Sim.Type",
-          "name": "Sim.Type",
+          "label": "AEC GRADE",
+          "name": "AEC GRADE",
           "show": false
         },
         {
           "group_by": false,
-          "label": "Sim.Device",
-          "name": "Sim.Device",
+          "label": "AEC QUALIFIED",
+          "name": "AEC QUALIFIED",
           "show": false
         },
         {
           "group_by": false,
-          "label": "Description",
-          "name": "Description",
+          "label": "ALTERNATE MANUFACTURER",
+          "name": "ALTERNATE MANUFACTURER",
           "show": false
         },
         {
           "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
+          "label": "ALTERNATE PARTNUMBER",
+          "name": "ALTERNATE PARTNUMBER",
           "show": false
         },
         {
           "group_by": false,
           "label": "ALTIUM_VALUE",
           "name": "ALTIUM_VALUE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Availability",
+          "name": "Availability",
           "show": false
         },
         {
@@ -713,6 +719,12 @@
         },
         {
           "group_by": false,
+          "label": "Check_prices",
+          "name": "Check_prices",
+          "show": false
+        },
+        {
+          "group_by": false,
           "label": "DATASHEET",
           "name": "DATASHEET",
           "show": false
@@ -739,6 +751,12 @@
           "group_by": false,
           "label": "DIGIKEY PART NUMBER",
           "name": "DIGIKEY PART NUMBER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description_1",
+          "name": "Description_1",
           "show": false
         },
         {
@@ -857,6 +875,18 @@
         },
         {
           "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MF",
+          "name": "MF",
+          "show": false
+        },
+        {
+          "group_by": false,
           "label": "MOUNTTYPE",
           "name": "MOUNTTYPE",
           "show": false
@@ -871,6 +901,12 @@
           "group_by": false,
           "label": "MOUSER PART NUMBER",
           "name": "MOUSER PART NUMBER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
           "show": false
         },
         {
@@ -917,6 +953,12 @@
         },
         {
           "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
           "label": "PINCOUNT",
           "name": "PINCOUNT",
           "show": false
@@ -949,6 +991,24 @@
           "group_by": false,
           "label": "PUBLISHER",
           "name": "PUBLISHER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Price",
+          "name": "Price",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Purchase-URL",
+          "name": "Purchase-URL",
           "show": false
         },
         {
@@ -1037,6 +1097,18 @@
         },
         {
           "group_by": false,
+          "label": "SNAPEDA_PN",
+          "name": "SNAPEDA_PN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
           "label": "SUPPLIER 1",
           "name": "SUPPLIER 1",
           "show": false
@@ -1079,20 +1151,26 @@
         },
         {
           "group_by": false,
-          "label": "AEC QUALIFIED",
-          "name": "AEC QUALIFIED",
+          "label": "Sim.Device",
+          "name": "Sim.Device",
           "show": false
         },
         {
           "group_by": false,
-          "label": "AEC CATEGORY",
-          "name": "AEC CATEGORY",
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
           "show": false
         },
         {
           "group_by": false,
-          "label": "AEC GRADE",
-          "name": "AEC GRADE",
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SnapEDA_Link",
+          "name": "SnapEDA_Link",
           "show": false
         },
         {
@@ -1193,92 +1271,14 @@
         },
         {
           "group_by": false,
-          "label": "ALTERNATE MANUFACTURER",
-          "name": "ALTERNATE MANUFACTURER",
+          "label": "Description",
+          "name": "Description",
           "show": false
         },
         {
           "group_by": false,
-          "label": "ALTERNATE PARTNUMBER",
-          "name": "ALTERNATE PARTNUMBER",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Price",
-          "name": "Price",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Purchase-URL",
-          "name": "Purchase-URL",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "PARTREV",
-          "name": "PARTREV",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MF",
-          "name": "MF",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Availability",
-          "name": "Availability",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "SnapEDA_Link",
-          "name": "SnapEDA_Link",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "SNAPEDA_PN",
-          "name": "SNAPEDA_PN",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "STANDARD",
-          "name": "STANDARD",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Check_prices",
-          "name": "Check_prices",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MP",
-          "name": "MP",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MAXIMUM_PACKAGE_HEIGHT",
-          "name": "MAXIMUM_PACKAGE_HEIGHT",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Package",
-          "name": "Package",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description_1",
-          "name": "Description_1",
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
           "show": false
         }
       ],
@@ -1331,67 +1331,9 @@
   },
   "sheets": [
     [
-      "81e8a54f-a6a6-4f78-985c-1dc7d6751007",
+      "630cf4d1-dbc4-4af7-ac60-af57a340d5ae",
       "Root"
-    ],
-    [
-      "857049be-50e6-4ac5-ad00-0478baeab975",
-      "Battery Pack"
-    ],
-    [
-      "d9123505-2e91-49e0-b557-44bb908bb8a4",
-      "Cell Monitor"
-    ],
-    [
-      "c2fdc24a-8419-4e57-879f-6dea2fe8f7e8",
-      "Cell Controller"
-    ],
-    [
-      "74145ec3-99f0-43b9-89a7-81e8f7fd18fe",
-      "Charger IC"
-    ],
-    [
-      "24019103-358c-4d97-a7cd-466f0b4103d1",
-      "USB Interface"
-    ],
-    [
-      "0f7ceac4-f1c3-4a56-82f3-029c07312a33",
-      "Buck Converter Stage"
-    ],
-    [
-      "47edc75a-ab5a-491b-b1f5-63eaaacac5fe",
-      "Power Distribution"
-    ],
-    [
-      "1954bae3-91e7-416c-822c-2b97e25921d4",
-      "Testing Stage 1 MONITORING"
     ]
   ],
-  "text_variables": {
-    "ADDRESS1": "Not shown in title block",
-    "ADDRESS2": "Not shown in title block",
-    "ADDRESS3": "Not shown in title block",
-    "ADDRESS4": "Not shown in title block",
-    "APPROVEDBY": "Not shown in title block",
-    "AUTHOR": "Not shown in title block",
-    "CHECKEDBY": "Not shown in title block",
-    "CONFIGURATIONPARAMETERS": "",
-    "CONFIGURATORNAME": "",
-    "CURRENTDATE": "Not shown in title block",
-    "CURRENTTIME": "Not shown in title block",
-    "DOCUMENTFULLPATHANDNAME": "Not shown in title block",
-    "DOCUMENTNAME": "Not shown in title block",
-    "DOCUMENTNUMBER": "1",
-    "DRAWNBY": "",
-    "ENGINEER": "Not shown in title block",
-    "IMAGEPATH": "Not shown in title block",
-    "ISUSERCONFIGURABLE": "",
-    "MODIFIEDDATE": "Not shown in title block",
-    "ORGANIZATION": "Not shown in title block",
-    "PAGESETUP": "Record=PageOptions¦CenterHorizontal=True¦CenterVertical=True¦PrintScale=1.00¦XCorrection=1.00¦YCorrection=1.00¦PrintKind=0¦BorderSize=5000000¦LeftOffset=0¦BottomOffset=0¦Orientation=2¦PaperLength=1000¦PaperWidth=1000¦Scale=100¦PaperSource=15¦PrintQuality=600¦MediaType=1¦DitherType=10¦PaperKind=Letter¦PrintScaleMode=1",
-    "SHEETTOTAL": "2",
-    "TIME": "Not shown in title block",
-    "VERSIONCONTROL_PROJFOLDERREVNUMBER": "",
-    "VERSIONCONTROL_REVNUMBER": ""
-  }
+  "text_variables": {}
 }
