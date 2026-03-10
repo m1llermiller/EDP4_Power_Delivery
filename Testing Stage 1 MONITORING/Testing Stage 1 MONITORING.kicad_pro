@@ -520,7 +520,7 @@
         "pattern": "PACK+"
       },
       {
-        "netclass": "High_Current",
+        "netclass": "Systems_Power",
         "pattern": "/VCC"
       }
     ]

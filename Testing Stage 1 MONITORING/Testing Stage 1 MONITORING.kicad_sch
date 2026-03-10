@@ -1988,113 +1988,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:TestPoint_2Pole"
 			(pin_names
 				(offset 0.762)
@@ -4801,12 +4694,6 @@
 		(uuid "039964a7-feaf-4e25-8d4a-580efe279f57")
 	)
 	(junction
-		(at 259.08 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0b6143ec-1ccc-4557-a50e-7f20375d6a48")
-	)
-	(junction
 		(at 273.05 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5475,16 +5362,6 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 82.55) (xy 279.4 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29bc71f1-f3c5-484b-b158-ab1bd14075a1")
-	)
-	(wire
-		(pts
 			(xy 252.73 21.59) (xy 257.81 21.59)
 		)
 		(stroke
@@ -5715,7 +5592,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 81.28) (xy 259.08 82.55)
+			(xy 259.08 81.28) (xy 259.08 83.82)
 		)
 		(stroke
 			(width 0)
@@ -6312,16 +6189,6 @@
 			(type default)
 		)
 		(uuid "7f7731a7-9cd2-41bd-a7a5-3d5580989a5e")
-	)
-	(wire
-		(pts
-			(xy 259.08 82.55) (xy 259.08 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7fe8ef24-09fe-4104-a7f2-310d46adbbc8")
 	)
 	(wire
 		(pts
@@ -7822,16 +7689,6 @@
 			(justify left bottom)
 		)
 		(uuid "32349c23-1adc-4080-84dd-5a898e7819c9")
-	)
-	(label "HS_SW_PACKDIV"
-		(at 279.4 82.55 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "39a3e43e-2e37-40cb-b12e-9695b56c8368")
 	)
 	(label "CHG_GATE"
 		(at 241.3 31.75 180)
@@ -9630,7 +9487,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0a0cdcb8-9ea6-4d84-ae20-733ec708ab78")
-		(property "Reference" "R23"
+		(property "Reference" "R24"
 			(at 165.608 22.098 0)
 			(effects
 				(font
@@ -10728,7 +10585,7 @@
 		(instances
 			(project "Testing Stage 1 MONITORING"
 				(path "/630cf4d1-dbc4-4af7-ac60-af57a340d5ae"
-					(reference "R23")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -10743,7 +10600,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0aa0b1dc-935d-429a-a22c-f72a3c410162")
-		(property "Reference" "R18"
+		(property "Reference" "R19"
 			(at 155.702 48.26 90)
 			(effects
 				(font
@@ -11830,7 +11687,7 @@
 		(instances
 			(project "Testing Stage 1 MONITORING"
 				(path "/630cf4d1-dbc4-4af7-ac60-af57a340d5ae"
-					(reference "R18")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -13089,7 +12946,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b24c5d0-73c7-4cb2-afce-317cdf59cd9a")
-		(property "Reference" "R30"
+		(property "Reference" "R31"
 			(at 257.81 132.08 90)
 			(effects
 				(font
@@ -14185,7 +14042,7 @@
 		(instances
 			(project "Testing Stage 1 MONITORING"
 				(path "/630cf4d1-dbc4-4af7-ac60-af57a340d5ae"
-					(reference "R30")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -15380,7 +15237,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2208cfb5-8e1d-4f20-8c94-82ae4150ef69")
-		(property "Reference" "R32"
+		(property "Reference" "R33"
 			(at 261.62 86.3599 0)
 			(effects
 				(font
@@ -16478,7 +16335,7 @@
 		(instances
 			(project "Testing Stage 1 MONITORING"
 				(path "/630cf4d1-dbc4-4af7-ac60-af57a340d5ae"
-					(reference "R32")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -22321,7 +22178,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3577d960-e3fc-4c27-b01d-ea218b71e6cf")
-		(property "Reference" "Q6"
+		(property "Reference" "Q4"
 			(at 247.65 16.51 90)
 			(effects
 				(font
@@ -22403,7 +22260,7 @@
 		(instances
 			(project "Testing Stage 1 MONITORING"
 				(path "/630cf4d1-dbc4-4af7-ac60-af57a340d5ae"
-					(reference "Q6")
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -23548,7 +23405,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "40ce22b5-c38f-4344-b809-bc67af476071")
-		(property "Reference" "R29"
+		(property "Reference" "R30"
 			(at 263.652 26.924 0)
 			(effects
 				(font
@@ -24646,7 +24503,7 @@
 		(instances
 			(project "Testing Stage 1 MONITORING"
 				(path "/630cf4d1-dbc4-4af7-ac60-af57a340d5ae"
-					(reference "R29")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -24726,7 +24583,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "45a8fe62-604c-4b22-99f1-49000f59a43c")
-		(property "Reference" "R20"
+		(property "Reference" "R21"
 			(at 155.702 58.42 90)
 			(effects
 				(font
@@ -25813,7 +25670,7 @@
 		(instances
 			(project "Testing Stage 1 MONITORING"
 				(path "/630cf4d1-dbc4-4af7-ac60-af57a340d5ae"
-					(reference "R20")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -35038,7 +34895,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5fae4288-3052-4e2f-af55-d8c9fdf0af56")
-		(property "Reference" "R21"
+		(property "Reference" "R22"
 			(at 155.702 63.5 90)
 			(effects
 				(font
@@ -36125,7 +35982,7 @@
 		(instances
 			(project "Testing Stage 1 MONITORING"
 				(path "/630cf4d1-dbc4-4af7-ac60-af57a340d5ae"
-					(reference "R21")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -44304,7 +44161,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "75aeea73-1a1d-43c6-baca-6e91e1772d37")
-		(property "Reference" "R27"
+		(property "Reference" "R28"
 			(at 217.678 140.208 0)
 			(effects
 				(font
@@ -45402,7 +45259,7 @@
 		(instances
 			(project "Testing Stage 1 MONITORING"
 				(path "/630cf4d1-dbc4-4af7-ac60-af57a340d5ae"
-					(reference "R27")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -49922,7 +49779,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "830218d4-650a-4925-b602-4b5afde48e18")
-		(property "Reference" "R24"
+		(property "Reference" "R25"
 			(at 175.768 22.098 0)
 			(effects
 				(font
@@ -51020,7 +50877,7 @@
 		(instances
 			(project "Testing Stage 1 MONITORING"
 				(path "/630cf4d1-dbc4-4af7-ac60-af57a340d5ae"
-					(reference "R24")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -54564,7 +54421,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8cc4d903-bd0b-43e7-b535-f25fc1863ab9")
-		(property "Reference" "Q5"
+		(property "Reference" "Q3"
 			(at 231.14 16.51 90)
 			(effects
 				(font
@@ -54646,7 +54503,7 @@
 		(instances
 			(project ""
 				(path "/630cf4d1-dbc4-4af7-ac60-af57a340d5ae"
-					(reference "Q5")
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -58600,7 +58457,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a6d58367-461b-4fb2-a0ef-741bf8c569c8")
-		(property "Reference" "R22"
+		(property "Reference" "R23"
 			(at 155.702 68.58 90)
 			(effects
 				(font
@@ -59687,7 +59544,7 @@
 		(instances
 			(project "Testing Stage 1 MONITORING"
 				(path "/630cf4d1-dbc4-4af7-ac60-af57a340d5ae"
-					(reference "R22")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -63080,198 +62937,6 @@
 			(project "Testing Stage 1 MONITORING"
 				(path "/630cf4d1-dbc4-4af7-ac60-af57a340d5ae"
 					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 279.4 82.55 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b5578725-506c-437e-9c37-28b5bb52d289")
-		(property "Reference" "TP_PACKDIV1"
-			(at 276.86 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 276.86 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
-			(at 274.32 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 274.32 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 279.4 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 279.4 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 279.4 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 279.4 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 279.4 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 279.4 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 279.4 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 279.4 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 279.4 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 279.4 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 279.4 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" ""
-			(at 279.4 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" ""
-			(at 279.4 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 279.4 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 279.4 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "472f0e2a-ae2e-4a91-a8c7-7672e09eb4a1")
-		)
-		(instances
-			(project "Testing Stage 1 MONITORING"
-				(path "/630cf4d1-dbc4-4af7-ac60-af57a340d5ae"
-					(reference "TP_PACKDIV1")
 					(unit 1)
 				)
 			)
@@ -67844,7 +67509,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c32e503d-067b-4231-8d8e-01695156ca3d")
-		(property "Reference" "R28"
+		(property "Reference" "R29"
 			(at 219.71 26.67 0)
 			(effects
 				(font
@@ -68942,7 +68607,7 @@
 		(instances
 			(project "Testing Stage 1 MONITORING"
 				(path "/630cf4d1-dbc4-4af7-ac60-af57a340d5ae"
-					(reference "R28")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -68957,8 +68622,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c86328f1-c98e-497d-9339-5942ad0cc15f")
-		(property "Reference" "Rf_AFE_BATT1"
-			(at 148.59 179.07 90)
+		(property "Reference" "R18"
+			(at 142.24 179.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70055,7 +69720,7 @@
 		(instances
 			(project "Testing Stage 1 MONITORING"
 				(path "/630cf4d1-dbc4-4af7-ac60-af57a340d5ae"
-					(reference "Rf_AFE_BATT1")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -70070,7 +69735,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c942aa70-c520-49f6-b1c3-0eadc8b5a724")
-		(property "Reference" "R19"
+		(property "Reference" "R20"
 			(at 155.702 53.34 90)
 			(effects
 				(font
@@ -71157,7 +70822,7 @@
 		(instances
 			(project "Testing Stage 1 MONITORING"
 				(path "/630cf4d1-dbc4-4af7-ac60-af57a340d5ae"
-					(reference "R19")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -71172,7 +70837,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cb2bee7c-e79b-4063-bc23-2d909ab22333")
-		(property "Reference" "R26"
+		(property "Reference" "R27"
 			(at 212.09 39.37 90)
 			(effects
 				(font
@@ -72268,7 +71933,7 @@
 		(instances
 			(project "Testing Stage 1 MONITORING"
 				(path "/630cf4d1-dbc4-4af7-ac60-af57a340d5ae"
-					(reference "R26")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -72283,7 +71948,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cc7356c7-a87c-41c8-a05e-6116e84d7043")
-		(property "Reference" "R33"
+		(property "Reference" "R34"
 			(at 266.7 43.18 90)
 			(effects
 				(font
@@ -73379,7 +73044,7 @@
 		(instances
 			(project "Testing Stage 1 MONITORING"
 				(path "/630cf4d1-dbc4-4af7-ac60-af57a340d5ae"
-					(reference "R33")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -84047,7 +83712,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f7d54263-7980-4da5-af2c-613dba52827a")
-		(property "Reference" "R25"
+		(property "Reference" "R26"
 			(at 204.978 140.208 0)
 			(effects
 				(font
@@ -85145,7 +84810,7 @@
 		(instances
 			(project "Testing Stage 1 MONITORING"
 				(path "/630cf4d1-dbc4-4af7-ac60-af57a340d5ae"
-					(reference "R25")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -86272,7 +85937,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "febbc23b-4fa6-4fc1-b7b2-d3b073ef2222")
-		(property "Reference" "R31"
+		(property "Reference" "R32"
 			(at 261.62 76.1999 0)
 			(effects
 				(font
@@ -87370,7 +87035,7 @@
 		(instances
 			(project "Testing Stage 1 MONITORING"
 				(path "/630cf4d1-dbc4-4af7-ac60-af57a340d5ae"
-					(reference "R31")
+					(reference "R32")
 					(unit 1)
 				)
 			)
