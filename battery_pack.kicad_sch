@@ -264,6 +264,154 @@
 			(embedded_fonts no)
 		)
 	)
+	(circle
+		(center 70.866 164.338)
+		(radius 3.5921)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 128ec74d-5f8b-45b3-b32d-d950d698d239)
+	)
+	(circle
+		(center 74.676 157.988)
+		(radius 1.27)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1bf36fc0-0cac-40f5-815c-563a4862d47a)
+	)
+	(circle
+		(center 74.676 157.988)
+		(radius 3.5921)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1d8b9887-1e89-4c35-aee8-ba580ef46ea5)
+	)
+	(arc
+		(start 70.866 164.338)
+		(mid 71.4559 160.3739)
+		(end 74.676 157.988)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4081cba9-736a-4538-aeb4-ad59227b3792)
+	)
+	(circle
+		(center 82.296 157.988)
+		(radius 1.27)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 434c6717-1351-4fd5-91bb-af64cc06d98f)
+	)
+	(circle
+		(center 67.056 157.988)
+		(radius 1.27)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 48d9093e-7474-41cf-bbcf-4741da1d4128)
+	)
+	(circle
+		(center 82.296 157.988)
+		(radius 3.5921)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5252d8d1-942b-47d8-8019-8cba37f663ae)
+	)
+	(arc
+		(start 78.486 164.338)
+		(mid 79.0759 160.3739)
+		(end 82.296 157.988)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 581bc4e1-3e59-469b-86f0-26186e8b0b11)
+	)
+	(circle
+		(center 67.056 157.988)
+		(radius 3.5921)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 84a142e3-fbd3-4652-aba7-b8a62d2cf060)
+	)
+	(arc
+		(start 67.056 157.988)
+		(mid 70.2761 160.3739)
+		(end 70.866 164.338)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 91ba0ecb-456f-4f8f-a998-d07435de2ee2)
+	)
+	(arc
+		(start 74.676 157.988)
+		(mid 77.8961 160.3739)
+		(end 78.486 164.338)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid aa53a8fd-9c5f-48ab-be1c-635a3c895604)
+	)
+	(circle
+		(center 78.486 164.338)
+		(radius 3.5921)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f0d460cf-bffe-415a-8056-cbe0010ea096)
+	)
 	(text "must be rated to full pack current - 12A"
 		(exclude_from_sim no)
 		(at 74.676 116.84 0)
@@ -284,9 +432,19 @@
 		)
 		(uuid "a9391938-913f-4b82-b390-a1d6660fb135")
 	)
+	(text "batt pack physical construction ? "
+		(exclude_from_sim no)
+		(at 73.66 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bb85fb7f-c62d-4f9f-b861-896ea0cce3ad")
+	)
 	(text "update: not mounting cells directly onto PCB - will build separate battery pack with tap wires"
 		(exclude_from_sim no)
-		(at 77.216 173.228 0)
+		(at 80.01 146.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)

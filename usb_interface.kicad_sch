@@ -2609,6 +2609,16 @@
 		)
 		(uuid "03d94ce3-9830-4202-adf1-dad2d352da4b")
 	)
+	(text "max 1mA draw - do not overload - already at 726uA dont make external connections"
+		(exclude_from_sim no)
+		(at 60.198 110.236 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "045320f3-9d93-4d18-8e98-7ebf6becd747")
+	)
 	(text "Configured for 20V @ 3A as TPS25730D datasheet example - page 42"
 		(exclude_from_sim no)
 		(at 68.58 14.732 0)
@@ -2631,6 +2641,26 @@
 			)
 		)
 		(uuid "2296318f-5c5a-462d-ae63-ac53295d6e52")
+	)
+	(text "66uA from LDO_3V3"
+		(exclude_from_sim no)
+		(at 260.604 45.212 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4f040f81-ce48-4fdc-8dcd-3ac3745d1d90")
+	)
+	(text "660uA from LDO_3V3"
+		(exclude_from_sim no)
+		(at 178.054 37.846 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "83c164a1-4c54-4c6f-9be6-2f654a4c09cd")
 	)
 	(text "Charging system will only work with USB C PD enabled chargers"
 		(exclude_from_sim no)
@@ -4649,7 +4679,7 @@
 		)
 		(uuid "c079de8d-6fb5-4d3b-a274-08205cf22e2b")
 	)
-	(hierarchical_label "USB_20V_BUS"
+	(hierarchical_label "PPHV"
 		(shape input)
 		(at 267.97 99.06 0)
 		(effects
