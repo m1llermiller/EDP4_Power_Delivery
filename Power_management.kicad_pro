@@ -1353,14 +1353,6 @@
     [
       "24019103-358c-4d97-a7cd-466f0b4103d1",
       "USB Interface"
-    ],
-    [
-      "0f7ceac4-f1c3-4a56-82f3-029c07312a33",
-      "Buck Converter Stage"
-    ],
-    [
-      "47edc75a-ab5a-491b-b1f5-63eaaacac5fe",
-      "Power Distribution"
     ]
   ],
   "text_variables": {
