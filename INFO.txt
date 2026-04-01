@@ -1,0 +1,14 @@
+GitHub repository linked to this directory.
+Will do all work on project using these local files which are saved here. 
+
+git commands to use:
+
+git status 
+> shows whats been modified
+
+git add .
+> stages all modified and new files
+
+git commit -m "comment"
+
+git push

@@ -1,0 +1,16 @@
+# KiCad backup folders
+*-backups/
+
+# KiCad backup files
+*.kicad_sch-bak
+*.kicad_pcb-bak
+
+# KiCad lock files
+~*.lck
+
+# KiCad project local settings
+*.kicad_prl
+
+# OS junk
+.DS_Store
+Thumbs.db
